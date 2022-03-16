@@ -527,9 +527,10 @@ img {
     align-items: center;
     padding: 5rem 3rem;
     border-radius: 10px;
-    width: 80%;
+    min-width: 60%;
+    width: 70%;
     gap: 5rem;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .section-1 {
@@ -557,10 +558,10 @@ img {
 
 .section-2 {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     padding: 1em 2em;
+    min-width: 60%;
     width: fit-content;
-    max-width: 60%;
     border-radius: 10px;
     background-color: white;
     justify-content: center;
@@ -581,7 +582,7 @@ img {
 }
 
 .photo-container {
-    width: 18rem;
+    width: 15rem;
     border-radius: 50%;
     outline: 2px solid;
     outline-offset: 4px;
@@ -600,6 +601,7 @@ img {
 }
 
 .box-title span {
+    flex-shrink: 0;
     font-size: 1rem;
     color: #101010;
 }
