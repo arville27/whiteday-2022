@@ -1,0 +1,172 @@
+/******************************************
+    Version: 1.0
+/****************************************** */
+
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+    .imp-container {
+        padding-inline: 5rem;
+    }
+
+    .card-container {
+        gap: 3rem;
+        padding: 2rem 1rem;
+    }
+
+    .photo-container {
+        width: 12rem;
+    }
+
+    .section-2 {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .imp-container {
+        padding-inline: 3rem;
+    }
+
+    .card-container {
+        flex-direction: column;
+        padding: 1.2rem 0.5rem;
+        gap: 2rem;
+    }
+
+    .section-1 {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .photo-container {
+        width: 6rem;
+    }
+
+    .section-2 {
+        font-size: 0.7rem;
+        max-width: 95%;
+    }
+
+    .title {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .imp-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        padding-inline: 3rem;
+    }
+
+    .card-container {
+        flex-direction: column;
+        padding: 1.2rem 0.5rem;
+        gap: 1rem;
+    }
+
+    .section-1 {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .title-nickname {
+        display: none;
+    }
+
+    .photo-container {
+        width: 6rem;
+    }
+
+    .section-2 {
+        font-size: 0.7rem;
+        min-width: 80%;
+        max-width: 95%;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow-y: scroll;
+        max-height: 15rem;
+    }
+
+    .title {
+        font-size: 1.1rem !important;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .divider-title {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .imp-close {
+        top: 0.2rem;
+        right: 0.2rem;
+        padding: 0.1em;
+    }
+
+    .imp-title {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .imp-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        padding-inline: 0.8rem;
+    }
+
+    .popup-container {
+        padding: 1rem;
+    }
+
+    .card-container {
+        flex-direction: column;
+        gap: 1rem;
+        min-width: 90%;
+        padding-block: 2rem;
+    }
+
+    .section-1 {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .title-nickname {
+        display: none;
+    }
+
+    .photo-container {
+        width: 6rem;
+    }
+
+    .section-2 {
+        font-size: 0.7rem;
+        min-width: 80%;
+        max-width: 95%;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow-y: scroll;
+        max-height: 15rem;
+    }
+
+    .divider-title {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .header h1 {
+        font-size: 1rem;
+    }
+
+    .divider-title {
+        font-size: 32px;
+    }
+
+    .imp-card-container {
+        padding-inline: 5%;
+    }
+}
