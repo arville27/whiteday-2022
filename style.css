@@ -528,9 +528,9 @@ img {
     padding: 5rem 3rem;
     border-radius: 10px;
     min-width: 60%;
-    width: 70%;
-    gap: 5rem;
-    max-width: 80%;
+    width: 65%;
+    gap: 2rem;
+    max-width: 75%;
 }
 
 .section-1 {
